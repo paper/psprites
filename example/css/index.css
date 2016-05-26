@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.ico{
+    float: left;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+.ico-good{
+    background: url(../img/good.png) no-repeat;
+    width: 11px;
+    height: 13px;
+}
+.ico-right{
+    background-image: url(../img/right.png);
+    width: 25px;
+    height: 28px;
+}
+.ico-hot{
+    background-image: url(../img/hot.png);
+    width: 39px;
+    height: 40px;
+}
+.ico-doc{
+    background-image: url(  ../img/doc.png );
+    width: 28px;
+    height: 32px;
+}
+.ico-ppt{
+    background-image: url(../img/ppt.png);
+    width: 28px;
+    height: 32px;
+}
+.ico-google{
+    background-image: url(../img/google.png);
+    width: 54px;
+    height: 54px;
+}
+.ico-google-2{
+    background-image: url(../img/google.png);
+    width: 54px;
+    height: 54px;
+}

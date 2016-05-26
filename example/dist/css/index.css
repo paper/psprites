@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.ico{
+    float: left;
+    margin: 10px;
+    background-repeat: no-repeat;
+}
+.ico-good{
+    background: url(../img/output3.png) no-repeat;
+    width: 11px;
+    height: 13px;
+background-position: -56px -0px;}
+.ico-right{
+    background-image: url(../img/output3.png);
+    width: 25px;
+    height: 28px;
+background-position: -42px -56px;}
+.ico-hot{
+    background-image: url(../img/output3.png);
+    width: 39px;
+    height: 40px;
+background-position: -0px -56px;}
+.ico-doc{
+    background-image: url(  ../img/output3.png );
+    width: 28px;
+    height: 32px;
+background-position: -0px -98px;}
+.ico-ppt{
+    background-image: url(../img/output3.png);
+    width: 28px;
+    height: 32px;
+background-position: -30px -98px;}
+.ico-google{
+    background-image: url(../img/output3.png);
+    width: 54px;
+    height: 54px;
+background-position: -0px -0px;}
+.ico-google-2{
+    background-image: url(../img/output3.png);
+    width: 54px;
+    height: 54px;
+background-position: -0px -0px;}

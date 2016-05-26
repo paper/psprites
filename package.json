@@ -1,0 +1,21 @@
+{
+  "name": "psprites",
+  "version": "0.1.0",
+  "description": "解析css文件，生成雪碧图片和对应的css",
+  "author": "zhang binjue [paper]",
+  "licenses": "MIT",
+  "homepage": "https://github.com/paper/psprites",
+  "keywords": [
+    "sprites"
+  ],
+  "engines": {
+    "node": "4.4.x"
+  },
+  "main": "./lib/main.js",
+  "dependencies": {
+    "del": "^2.2.0",
+    "images": "^3.0.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {}
+}
