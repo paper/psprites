@@ -5,7 +5,7 @@
 # 说明
 最紧密算法来自之前的：https://github.com/paper/auto-css-sprite 这个项目
 
-这次做成node版本，主要是方便添加到任务中，还有添加了另外3中合成
+这次做成node版本，主要是方便添加到任务中，还有添加了另外3种合成
 
 1. 从上到下 top-down
 2. 从左到右 left-right
@@ -19,25 +19,25 @@ var psprites = require('../lib/main.js');
 // 这个路径是相对 example.js 的
 // 或者填绝对路径
 psprites.run({
-    // 需要解析css的路径
+    // 需要解析css的路径【必填】
     cssFrom  : './css/index.css',
-    // 需要提取css里面哪些图片进行解析(css代码里面的路径)，必填。
+    // 需要提取css里面哪些图片进行解析(css代码里面的路径)，【必填】
     cssImgPath: '../img/',
 
-    // 解析后的css放到哪里
+    // 解析后的css放到哪里【必填】
     cssTo : './dist/css/',
 
-    // 雪碧图放到哪里
+    // 雪碧图放到哪里【必填】
     spritePath : './dist/img/',
-    // 雪碧图的名字，可选
+    // 雪碧图的名字，【可选】
     spriteName : 'output3.png',
 
-    // 可选
+    // 【可选】
     // type  : 'top-down', 
 
-    // 雪碧图片间距 可选
+    // 雪碧图片间距 【可选】
     space : 2,
-    // 最紧密算法时，采样个数 可选
+    // 最紧密算法时，采样个数 【可选】
     sampleMax: 15 
 }, function(){
     console.log('psprites.run: ok~ end~');
