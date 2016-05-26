@@ -6,6 +6,7 @@
 最紧密算法来自之前的：https://github.com/paper/auto-css-sprite 这个项目
 
 这次做成node版本，主要是方便添加到任务中，还有添加了另外3中合成
+
 1. 从上到下 top-down
 2. 从左到右 left-right
 3. 从左上到右下 diagonal
